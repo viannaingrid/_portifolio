@@ -1,0 +1,33 @@
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img figure {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #0a0a1f;
+    /* Borda interna preta */
+    box-shadow: 0 0 0 4px #00ff80;
+    /* Borda externa verde neon */
+}
+
+.icon-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(30%, 30%);
+    background: #0a0a1f;
+    color: #c084fc;
+    font-size: 32px;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
