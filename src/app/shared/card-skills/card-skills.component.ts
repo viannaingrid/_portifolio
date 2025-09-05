@@ -16,6 +16,10 @@ export class CardSkillsComponent {
       icon: '../../../assets/CSS-icon.png',
     },
     {
+      name: 'SASS',
+      icon: '../../../assets/sass-icon.png',
+    },
+    {
       name: 'JavaScript',
       icon: '../../../assets/JavaScript-icon.png',
     },

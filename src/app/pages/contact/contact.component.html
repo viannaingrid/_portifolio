@@ -1,1 +1,11 @@
-<p>contact works!</p>
+<section class="contact-section">
+    <h2>Entre em Contato</h2>
+
+    <form (submit)="sendEmail($event)">
+        <input type="text" placeholder="Seu Nome" [(ngModel)]="formData.name" name="name" required />
+        <input type="email" placeholder="Seu Email" [(ngModel)]="formData.email" name="email" required />
+        <textarea placeholder="Sua Mensagem" [(ngModel)]="formData.message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>

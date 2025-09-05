@@ -1,1 +1,16 @@
-<p>card-projects works!</p>
+<section class="projects-section">
+    <div class="head-title">
+        <h2>Meus repositórios no GitHub</h2>
+    </div>
+
+    <div class="cards-grid">
+        <div class="card" *ngFor="let repo of repos">
+            <div class="card-content">
+                <img src="{{ repo.image }}" alt="{{ repo.name }}" class="repo-image">
+                <h3>{{ repo.name }}</h3>
+                <p>{{ repo.description || 'Sem descrição' }}</p>
+                <a [href]="repo.html_url" target="_blank">Ver Site</a>
+            </div>
+        </div>
+    </div>
+</section>
