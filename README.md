@@ -1,27 +1,112 @@
-# Portifolio
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<header>
+  <h1>💼 Portfólio Pessoal</h1>
+  <p>Seja bem-vindo(a) ao meu portfólio!<br>
+  Este projeto foi desenvolvido com Angular, SCSS, TypeScript e HTML, com o objetivo de apresentar minhas habilidades, projetos e trajetória como desenvolvedora.</p>
+</header>
+<br>
+<main>
+  <section>
+    <h2>🚀 Tecnologias utilizadas</h2>
+    <ul>
+      <li>Angular</li>
+      <li>TypeScript</li>
+      <li>HTML5</li>
+      <li>SCSS</li>
+      <li>Angular CLI</li>
+      <li>Deploy: Vercel</li>
+    </ul>
+  </section>
+<br>
+  <section>
+    <h2>🎯 Objetivo do projeto</h2>
+    <p>Este portfólio foi criado para centralizar meus projetos, destacar minhas competências em desenvolvimento front-end e back-end, além de facilitar o contato com recrutadores e a comunidade dev.</p>
+  </section>
+<br>
+  <section>
+    <h2>📸 Preview</h2>
+    <p>Confira o projeto hospedado na Vercel:</p>
+    <a href="https://portifolio-mu-jade-39.vercel.app/" target="_blank">🌐 Acessar Portfólio</a>
+    <br><br>
+  </section>
+<br>
+  <section>
+    <h2>⚙️ Como rodar o projeto</h2>
+    <ol>
+      <li>Clone o repositório:
+        <pre><code>git clone https://github.com/viannaingrid/_portifolio.git</code></pre>
+      </li>
+      <li>Acesse a pasta do projeto:
+        <pre><code>cd _portifolio</code></pre>
+      </li>
+      <li>Instale as dependências:
+        <pre><code>npm install</code></pre>
+      </li>
+      <li>Rode o projeto localmente:
+        <pre><code>ng serve</code></pre>
+      </li>
+      <li>Acesse no navegador:
+        <pre><code>http://localhost:4200</code></pre>
+      </li>
+    </ol>
+    <p>A aplicação recarregará automaticamente ao modificar os arquivos-fonte.</p>
+  </section>
+<br>
+  <section>
+    <h2>🛠️ Comandos úteis</h2>
+    <ul>
+      <li>Gerar um novo componente:
+        <pre><code>ng generate component nome-do-componente</code></pre>
+      </li>
+      <li>Gerar diretivas, pipes, serviços, classes, guards, interfaces, enums e módulos:
+        <pre><code>ng generate directive|pipe|service|class|guard|interface|enum|module</code></pre>
+      </li>
+      <li>Construir o projeto:
+        <pre><code>ng build --prod</code></pre>
+      </li>
+      <li>Executar testes unitários:
+        <pre><code>ng test</code></pre>
+      </li>
+      <li>Executar testes end-to-end:
+        <pre><code>ng e2e</code></pre>
+      </li>
+    </ul>
+  </section>
+<br>
+  <section>
+    <h2>📚 Ajuda adicional</h2>
+    <p>Para obter mais ajuda sobre o Angular CLI, utilize:</p>
+    <pre><code>ng help</code></pre>
+    <p>Ou consulte a documentação oficial: 
+      <a href="https://angular.io/cli" target="_blank">Angular CLI Overview and Command Reference</a>
+    </p>
+  </section>
+<br>
+  <section>
+    <h2>📌 Funcionalidades</h2>
+    <ul>
+      <li>Seção de apresentação com resumo profissional</li>
+      <li>Catálogo de projetos com links e descrições</li>
+      <li>Formulário de contato (em desenvolvimento)</li>
+      <li>Links para redes sociais e GitHub</li>
+    </ul>
+  </section>
+<br>
+  <section>
+    <h2>💡 Melhorias futuras</h2>
+    <ul>
+      <li>Adicionar testes unitários e de integração</li>
+      <li>Melhorar acessibilidade (WCAG)</li>
+      <li>Implementar CI/CD com GitHub Actions</li>
+      <li>Adicionar animações e microinterações</li>
+    </ul>
+  </section>
+<br>
+  <section>
+    <h2>🧑‍💻 Autora</h2>
+    <p>Feito com 💙 por <strong>Ingrid Vianna Oliveira</strong></p>
+  </section>
+</main>
+<br>
+<footer>
+  <p>&copy; 2025 - Desenvolvido por Ingrid Vianna Oliveira</p>
+</footer>
